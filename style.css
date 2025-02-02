@@ -3,8 +3,10 @@ body {
 }
 
 h1 {
+    position:absolute;
     color: antiquewhite;
-    text-align: center;
+    left: 870px;
+    top: 2px;
 }
 
 h2 {
@@ -19,6 +21,7 @@ h2 {
 button {
     width: 500px;
     height: 100px;
+    top: 100;
     
 }
 
@@ -29,6 +32,27 @@ body {
     margin: 0;
 }
 
+#username {
+    color: #03242e;
+}
+
+.copy-username-button {
+    position:absolute;
+    left:50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+
 
 .image {
     width: 100px; 
@@ -38,20 +62,20 @@ body {
 
 
 #image1 {
-    top: 17.5%;  
+    top: 15%;  
     left: 2%; 
 }
 
 
 #image2 {
-    top: 6.5%; 
+    top: 3.9%; 
     left: 2.2%; 
     width: 5%;
 }
 
 
 #image3 {
-    top: 27.7%; 
+    top: 25.2%; 
     left: 2.4%; 
     width: 4.5%;
 }
@@ -66,3 +90,5 @@ body {
 #image5 {
     top: 400px; 
     left: 800px; 
+
+}

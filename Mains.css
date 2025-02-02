@@ -52,6 +52,26 @@ table {
     margin: 0;
 }
 
+#username {
+    color: #03242e;
+}
+
+.copy-username-button {
+    position:absolute;
+    left:50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
 .vertical-line {
     position:absolute;
     top: 130px;
@@ -147,4 +167,10 @@ a {
 button {
     padding: 10px 20px;
     font-size: 16px;
+}
+
+#image1, #image2, #image3, #image4, #image5, #image7, #image8, #image9, #image10, #image11 {
+    border: 4px solid white;
+    padding: 0px;
+    box-sizing: border-box;
 }
