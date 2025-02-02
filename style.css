@@ -2,6 +2,15 @@ body {
     background-color: #03242e;
 }
 
+
+@media (max-width: 768px) {
+    .copy-username-button, .copy-LeagueUserName-button {
+        width: 80%;
+        left: 10%;
+        bottom: 20px;
+    }
+}
+
 h1 {
     position:absolute;
     color: antiquewhite;
@@ -52,7 +61,21 @@ body {
     height: 50px;
 }
 
-
+.copy-LeagueUserName-button {
+    position:absolute;
+    left:39%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
 
 .image {
     width: 100px; 
@@ -62,20 +85,20 @@ body {
 
 
 #image1 {
-    top: 15%;  
+    top: 19%;  
     left: 2%; 
 }
 
 
 #image2 {
-    top: 3.9%; 
+    top: 8.1%; 
     left: 2.2%; 
     width: 5%;
 }
 
 
 #image3 {
-    top: 25.2%; 
+    top: 29.4%; 
     left: 2.4%; 
     width: 4.5%;
 }
