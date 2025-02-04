@@ -44,7 +44,9 @@ body {
 #username {
     color: #03242e;
 }
-
+#LeagueUserName {
+    color:#03242e
+}
 .copy-username-button {
     position:absolute;
     left:50%;
